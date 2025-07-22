@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe6f2;
+    color: #444;
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+}
+header {
+    background: #ffb6c1;
+    padding: 20px;
+    border-bottom: 5px solid #ff94a3;
+    border-top: 5px solid #ff94a3;
+    border-radius: 20px;
+}
+.subtitle {
+    font-size: 1.2em;
+    color: #b03a5b;
+    font-weight: lighter;
+}
+main {
+    padding: 20px;
+}
+section {
+    background: #ffc2d1;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}   
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea {
+    height: 100px;
+}
+.btn {
+    background: #e91e63;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}   
+.team-section {
+    margin: 20px;
+    padding: 20px;
+}
+.member {
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ff94a3;
+}
+.btn:hover {
+    background: #c2185b;
+}
+footer {
+    background: #ffb6c1;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
